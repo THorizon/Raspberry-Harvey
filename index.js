@@ -5,7 +5,7 @@ bot.on("ready", function(){
 	console.log(`${bot.user.username} Is Online!`);
 });
 
-bot.login(process.emv.token);
+bot.login(process.env.token);
 
 
 
